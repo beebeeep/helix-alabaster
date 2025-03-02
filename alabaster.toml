@@ -10,6 +10,7 @@
 "ui.statusline.inactive" = {fg="inact_status_bar_fg", bg="inact_status_bar_bg"}
 "ui.virtual" = "indent"
 "ui.virtual.ruler" = { bg = "bg_ui" }
+"ui.virtual.jump-label" = {fg = "fg", bg = "orange", modifiers = ["bold"]}
 "ui.cursor.match" = {bg="bg_darker"}
 "ui.cursor" = {bg="cursor", fg="white"}
 "ui.debug" = {fg="orange"}
