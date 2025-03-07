@@ -32,10 +32,10 @@
 
 "error" = {fg="red", bg = "bg_error"}
 "warning" = {fg="orange"}
-"hint" = {fg="gray"}
-"diagnostic.error" = {fg="red", bg = "bg_error", underline = {style = "curl"}, modifiers=[]}
-"diagnostic.warning" = {bg="orange", fg="fg", modifiers=["bold"]}
-"diagnostic.hint" = {fg="gray", modifiers=["bold"]}
+"hint" = {fg="gray", bg = "bg_hint" }
+"diagnostic.error" = {fg = "red", bg = "bg_error", underline = {style = "curl"}, modifiers=[]}
+"diagnostic.warning" = {bg = "orange", fg="fg", modifiers=["bold"]}
+"diagnostic.hint" = {fg = "gray", modifiers=["bold"]}
 "diagnostic.unnecessary" = { modifiers = ["dim"] }
 "diagnostic.deprecated" = { modifiers = ["crossed_out"] }
 
@@ -50,6 +50,7 @@ bg_darker = "#d0d0d0"
 bg_ui = "#eeeeee"
 bg_menu = "#d0d0d0d"
 bg_error = "#fff0f70"
+bg_hint = "#eeeeee"
 fg = "#000000"
 fg_light = "#9da39a"
 status_bar_bg = "#777777"
