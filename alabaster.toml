@@ -17,7 +17,7 @@
 "ui.highlight.frameline" = {bg="#da8581"}
 "ui.help" = {fg="fg", bg="bg"}
 "ui.popup" = {fg="fg", bg="bg_ui"}
-"ui.menu" = {fg="fg", bg="bg_ui"}
+"ui.menu" = {fg="fg", bg="bg_menu"}
 "ui.menu.selected" = {bg="selected"}
 "ui.window" = {bg="bg_ui"}
 "ui.bufferline" = { fg = "fg", bg = "bg" }
@@ -30,7 +30,10 @@
 "punctuation" = "punctuation"
 
 
-"diagnostic.error" = {bg="red", fg="white", modifiers=["bold"]}
+"error" = {fg="red", bg = "bg_error"}
+"warning" = {fg="orange"}
+"hint" = {fg="gray"}
+"diagnostic.error" = {fg="red", bg = "bg_error", underline = {style = "curl"}, modifiers=[]}
 "diagnostic.warning" = {bg="orange", fg="fg", modifiers=["bold"]}
 "diagnostic.hint" = {fg="gray", modifiers=["bold"]}
 "diagnostic.unnecessary" = { modifiers = ["dim"] }
@@ -45,6 +48,8 @@ white = "#ffffff"
 bg = "#f7f7f7"
 bg_darker = "#d0d0d0"
 bg_ui = "#eeeeee"
+bg_menu = "#d0d0d0d"
+bg_error = "#fff0f70"
 fg = "#000000"
 fg_light = "#9da39a"
 status_bar_bg = "#777777"
